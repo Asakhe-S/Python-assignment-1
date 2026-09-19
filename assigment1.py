@@ -48,7 +48,7 @@ scores.append(100)  # Adding a new score
 
 week_days = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
 
-#print(f"Week Days: {week_days}")
+#print(f"Week Days: {week_days}") #printing the entire tuple
 #print(f"First Day: {week_days[0]}")  # Accessing the first day  
 #print(f"Last Day: {week_days[-1]}")  # Accessing the last day  
 
@@ -63,7 +63,7 @@ week_days = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",
 
 numbers = [1, 2 ,3, 4, 2, 5, 3, 6, 1]
 
-#print(set(numbers))
+#print(set(numbers)) # converting the list to a set to remove duplicates
 
 #Sets doesn't allow duplicates, which is why certain values disappeared when I converted the list to a set
 
@@ -71,9 +71,9 @@ numbers = [1, 2 ,3, 4, 2, 5, 3, 6, 1]
 
 Languages = ["Python", "Java", "Python", "C++", "JavaScript", "Python"]
 
-#print(set(Languages))
+#print(set(Languages)) # converting the list to a set to remove duplicates
 
-Languages.append("Django") # Attempting to add an item to a set 
+Languages.append("Django") # adding an item to a set 
 #print(set(Languages))  
 
 8.
